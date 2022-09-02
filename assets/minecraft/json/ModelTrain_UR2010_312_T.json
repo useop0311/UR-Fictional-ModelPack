@@ -1,0 +1,134 @@
+{
+"trainName": "UR312000_T",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "ModelTrain_KRV2010_Ts.mqo",
+      
+"textures": [
+["sidetex1", "textures/train/alu/311/sidetex1.png"],
+["sidetex2", "textures/train/alu/urfictional/sidetex2.png"],
+["window1", "textures/train/alu/window1s.png", "AlphaBlend"],
+["window2", "textures/train/alu/window2s1.png", "AlphaBlend"],
+["window3", "textures/train/alu/window3.png", "AlphaBlend"],
+["window4", "textures/train/alu/front2_a.png", "AlphaBlend"],
+["window5", "textures/train/alu/shadow.png", "AlphaBlend"],
+["doorside", "textures/train/alu/urfictional/doorside1.png"],
+["steel", "textures/train/alu/steel1.png"],
+["jibung", "textures/train/alu/311/jibung.png"],
+["cheonjang", "textures/train/alu/cheonjang.png"],
+["badak", "textures/train/alu/311/badak.png"],
+["back", "textures/train/alu/311/back.png", "AlphaBlend"],
+["back1", "textures/train/alu/back_in.png", "AlphaBlend"],
+["backin", "textures/train/alu/100_back.png"],
+["sub", "textures/train/alu/sub.png"],
+["door", "textures/train/alu/urfictional/door_3n.png"],
+["door_in", "textures/train/alu/381/door_in_p.png"],
+["habu", "textures/train/alu/tunder.png"],
+["black", "textures/train/alu/black.png"],
+["LCDbaem", "textures/train/alu/urfictional/LCDa.png"],
+["logo", "textures/train/alu/korlogour.png"],
+["bambase", "textures/train/alu/311/korail5000Tc.png"],
+["item", "textures/train/alu/item.png"],
+["Under", "textures/train/alu/undera.png"],
+["white", "textures/train/alu/white.png"]]
+   },
+
+
+"door_left": [
+    {
+        "objects": ["door_LF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_LB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["door_RF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_RB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+"rollsignTexture": "textures/train/alu/rollsign_ur.png",
+  "rollsignNames": ["None", "Forwarding", "Testrun", "ceremony", "library", "chungsan", "cityhall", "beach", "donggwang", "Byeongjeom", "Cheonanex", "Sinchangex", "Yongsanex", "Incheon", "Bupyeong", "Cheonan", "Seoulex", "Dongincheonex", "Seodongtan", "Sinchang" , "GW_U" ],
+  "rollsigns": [
+{
+    "uv": [0.215, 0.445, 0.0, 1.0],
+    "pos": [
+    [[1.563, 2.32, -4.58], [1.563, 2.09, -4.58], [1.563, 2.09, -4.17], [1.563, 2.32, -4.17]],
+	[[-1.563, 2.32, 4.58], [-1.563, 2.09, 4.58], [-1.563, 2.09, 4.17], [-1.563, 2.32, 4.17]]
+	],
+    "doAnimation": false,
+    "disableLighting": false
+	},
+{
+    "uv": [0.98, 1.0, 0.0, 1.0],
+    "pos": [
+    [[-0.565, 2.58, 9.63], [-0.565, 2.58, -9.63], [-0.795, 2.58, -9.63], [-0.795, 2.58, 9.63]],
+	[[0.795, 2.58, 9.63], [0.795, 2.58, -9.63], [0.565, 2.58, -9.63], [0.565, 2.58, 9.63]]
+	],
+    "doAnimation": true,
+    "disableLighting": false
+	}
+  ],
+
+  "bogieModel2": {
+    "modelFile": "SAMHAN_DT50_nonC.mqo",
+    "textures": [["DT_501", "textures/train/SAMHAN_DT/DT50_SAMHAN.png"],
+    ["Foregrou", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["FrontCol", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["DT50_wide", "textures/train/SAMHAN_DT/DT138shin1.png"]],
+    "rendererPath": "scripts/Render_Script_SAMHAN_DT3.js"},
+"wheelRotationSpeed": 1.0177,
+"buttonTexture": "textures/train/alu/urfictional/button_korail312.png",
+
+"soundScriptPath": "scripts/urp_nak5suburban_toshibaIGBT.js",
+"sound_Horn": "sound_nopsb:train.rtm_klaxon0",
+"sound_DoorOpen": "sound_nopsb:train.rtm_dooropn",
+"sound_DoorClose": "sound_nopsb:train.rtm_doorclose_drrr",
+
+"sound_Announcement": [["101e", "sound_ur:train.rtm_ur_ch_101e"], ["101s", "sound_ur:train.rtm_ur_ch_101s"], ["102", "sound_ur:train.rtm_ur_ch_102"], 
+["103", "sound_ur:train.rtm_ur_ch_103"], ["104", "sound_ur:train.rtm_ur_ch_104"], ["105", "sound_ur:train.rtm_ur_ch_105"], ["106", "sound_ur:train.rtm_ur_ch_106"], 
+["107e", "sound_ur:train.rtm_ur_ch_107e"], ["107s", "sound_ur:train.rtm_ur_ch_107s"],
+["doorclswarn", "sound_nopsb:train.rtm_doorclswarn"], ["doorclswarn_new", "sound_nopsb:train.rtm_HC_dcls"], 
+["Startsoon", "sound_nopsb:train.rtm_HC_startsoon"], ["idsong", "sound_nopsb:train.rtm_idsong"], ["dep", "sound_nopsb:train.rtm_dep"], ["Eolssiguya", "sound_nopsb:train.rtm_Eolssiguya"] , ["laststn", "sound_nopsb:train.rtm_laststn"] ,["logosong", "sound_nopsb:train.rtm_logosong"]],
+ 
+
+"slotPos": [
+[1.23, 0, 0, 2], [1.23, 0, 0.45, 2], [1.23, 0, 0.90, 2], [1.23, 0, 1.35, 2], [1.23, 0, 3.52, 2], [1.23, 0, 3.97, 2], [1.23, 0, 4.42, 2], [1.23, 0, 4.87, 2], [1.23, 0, 5.32, 2], [1.23, 0, 5.77, 2], [1.23, 0, 6.22, 2], [1.23, 0, 8.39, 2], [1.23, 0, 8.87, 2],  [1.23, 0, 9.36, 2],
+[1.23, 0, -0.45, 2], [1.23, 0, -0.90, 2], [1.23, 0, -1.35, 2], [1.23, 0, -3.52, 2], [1.23, 0, -3.97, 2], [1.23, 0, -4.42, 2], [1.23, 0, -4.87, 2], [1.23, 0, -5.32, 2], [1.23, 0, -5.77, 2], [1.23, 0, -6.22, 2], [1.23, 0, -8.39, 2], [1.23, 0, -8.87, 2],  [1.23, 0, -9.36, 2],
+[-1.23, 0, 0, 2], [-1.23, 0, 0.45, 2], [-1.23, 0, 0.90, 2], [-1.23, 0, 1.35, 2], [-1.23, 0, 3.52, 2], [-1.23, 0, 3.97, 2], [-1.23, 0, 4.42, 2], [-1.23, 0, 4.87, 2], [-1.23, 0, 5.32, 2], [-1.23, 0, 5.77, 2], [-1.23, 0, 6.22, 2], [-1.23, 0, 8.39, 2], [-1.23, 0, 8.87, 2],  [-1.23, 0, 9.36, 2],
+[-1.23, 0, -0.45, 2], [-1.23, 0, -0.90, 2], [-1.23, 0, -1.35, 2], [-1.23, 0, -3.52, 2], [-1.23, 0, -3.97, 2], [-1.23, 0, -4.42, 2], [-1.23, 0, -4.87, 2], [-1.23, 0, -5.32, 2], [-1.23, 0, -5.77, 2], [-1.23, 0, -6.22, 2], [-1.23, 0, -8.39, 2], [-1.23, 0, -8.87, 2],  [-1.23, 0, -9.36, 2]
+],
+
+"customIconTexture": "minecraft:textures/train/alu/icon_ur.png",
+"renderLight": true,
+"playerPos": [[0.0, 0.2, 9.2], [0.0, 0.2, -9.2]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"rolling": 0.0,
+"trainDistance": 10,
+ "doCulling": true,
+"smoothing": true,
+"maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
+"accelerateion": 0.0020832
+}

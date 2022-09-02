@@ -1,0 +1,73 @@
+{
+
+	"trainName": "UR_322X00_M",
+	"trainType": "EC",
+	"tags": "UR",
+	
+	"trainModel2": {
+		"modelFile": "ModelTrain_UR_322X00_M.mqo",
+		"textures": [
+			["mat1", "textures/train/322X00/322X00.png", "Light"],
+			["mat2", "textures/train/322X00/Sub_LCD_322X00.png", "Light"],
+			["DOOR", "textures/train/322X00/322X00Door.png", "Light,AlphaBlend"],
+			["HABU", "textures/train/322X00/MITSUBISHI-MOSFET.png", ""]]
+		},
+	
+	"bogieModel2": {
+		"modelFile": "DT50_wide_Mi.mqo",
+		"textures": [["default", "textures/train/DT138.png"]]
+	},
+	
+	"buttonTexture": "textures/train/322X00/button_322X00_M.png",
+
+"soundScriptPath": "scripts/urp_UR322X00.js",
+"sound_BrakeRelease": "sound_mhnlib:RTMLib.Brake.Mhn_Brake_3N",
+"sound_BrakeRelease2": "sound_mhnlib:RTMLib.Brake.Mhn_Brake_3Y",
+"sound_Horn": "sound_mhnlib:RTMLib.Horn.Mhn_Horn_15",
+"sound_DoorOpen": "sound_mtro:train.mtroairdooropen_NEW",
+"sound_DoorClose": "sound_mtro:train.mtroairdoorclose_NEW1",
+"sound_Announcement": [["doorclosewarn","sound_mtro:train.TTSdoorclosewarn"],
+					   ["doorchime","sound_mtro:train.mtronewdoorchime"]
+						],
+
+"seatPos": [
+	[12, 0, 130, 2], [12, 0, 110, 2], [12, 0, 90, 2], [12, 0, 70, 2], [12, 0, 50, 2], [12, 0, 30, 2], [12, 0, 10, 2],
+	[12, 0, -130, 2], [12, 0, -110, 2], [12, 0, -90, 2], [12, 0, -70, 2], [12, 0, -50, 2], [12, 0, -30, 2], [12, 0, -10, 2],
+	[-12, 0, 130, 2], [-12, 0, 110, 2], [-12, 0, 90, 2], [-12, 0, 70, 2], [-12, 0, 50, 2], [-12, 0, 30, 2], [-12, 0, 10, 2],
+	[-12, 0, -130, 2], [-12, 0, -110, 2], [-12, 0, -90, 2], [-12, 0, -70, 2], [-12, 0, -50, 2], [-12, 0, -30, 2], [-12, 0, -10, 2]
+],
+
+"interiorLights": [
+	{"pos": [0.0, 2.5, 5.0]},
+	{"pos": [0.0, 2.5, -5.0]}
+],
+
+"renderLight": true,
+"smoothing": true,
+"playerPos": [[0.85, 0.2, 8.95], [-0.85, 0.2, -8.95]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"trainDistance": 10.0,
+"accelerateion": 0.00243,
+
+
+
+"door_left": [
+	{"objects": ["door_LF"],
+	"pos": [0.0, 0.0, 0.0],
+	"transform": [[0.0, 0.0, 0.65]]},
+	{"objects": ["door_LB"],
+	"pos": [0.0, 0.0, 0.0],
+	"transform": [[0.0, 0.0, -0.65]]}
+],
+"door_right": [
+	{"objects": ["door_RF"],
+	"pos": [0.0, 0.0, 0.0],
+	"transform": [[0.0, 0.0, 0.65]]},
+	{"objects": ["door_RB"],
+	"pos": [0.0, 0.0, 0.0],
+	"transform": [[0.0, 0.0, -0.65]]}
+]
+
+
+
+}

@@ -1,0 +1,56 @@
+{
+"train.rtm_ur_ch_101e": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_101e"
+    ]
+  },
+"train.rtm_ur_ch_101s": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_101s"
+    ]
+  },
+"train.rtm_ur_ch_102": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_102"
+    ]
+  },
+"train.rtm_ur_ch_103": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_103"
+    ]
+  },
+"train.rtm_ur_ch_104": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_104"
+    ]
+  },
+"train.rtm_ur_ch_105": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_105"
+    ]
+  },
+"train.rtm_ur_ch_106": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_106"
+    ]
+  },
+"train.rtm_ur_ch_107e": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_107e"
+    ]
+  },
+"train.rtm_ur_ch_107s": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_ur_ch_107s"
+    ]
+  }
+}

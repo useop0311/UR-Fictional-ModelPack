@@ -1,0 +1,174 @@
+{
+"trainName": "UR312000_90",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "ModelTrain_KRV2016_Front_s.mqo",
+      
+"textures": [
+["sidetex1", "textures/train/alu/311/sidetex1.png"],
+["sidetex2", "textures/train/alu/urfictional/sidetex2.png"],
+["window1", "textures/train/alu/window1s.png", "AlphaBlend"],
+["window2", "textures/train/alu/window2s1.png", "AlphaBlend"],
+["window3", "textures/train/alu/window3.png", "AlphaBlend"],
+["window4", "textures/train/alu/front2_a.png", "AlphaBlend"],
+["window5", "textures/train/alu/Front_win.png", "AlphaBlend"],
+["window5-2", "textures/train/alu/shadow_tc.png", "AlphaBlend"],
+["back", "textures/train/alu/311/back.png", "AlphaBlend"],
+["back1", "textures/train/alu/back_in.png", "AlphaBlend"],
+["window6", "textures/train/alu/window5.png", "AlphaBlend"],
+["doorside", "textures/train/alu/urfictional/doorside1.png"],
+["steel", "textures/train/alu/steel1.png"],
+["jibung", "textures/train/alu/311/jibung.png"],
+["cheonjang", "textures/train/alu/cheonjangf.png"],
+["badak", "textures/train/alu/311/badak.png"],
+["backin", "textures/train/alu/100_back.png"],
+["driverwall_in", "textures/train/alu/driverwall_in.png"],
+["driverwall_out", "textures/train/alu/driverwall_out.png"],
+["black", "textures/train/alu/black.png"],
+["Under", "textures/train/alu/undera.png"],
+["sub", "textures/train/alu/sub.png"],
+["wiper1", "textures/train/alu/korlogono.png"],
+["wiper2", "textures/train/alu/wipern.png"],
+["door", "textures/train/alu/urfictional/door_3n.png"],
+["door_in", "textures/train/alu/381/door_in_p.png"],
+["habu", "textures/train/alu/tcunder.png"],
+["bambase", "textures/train/alu/311/korail5000Tc.png"],
+["door2", "textures/train/alu/cd.png"],
+["sidefrontl", "textures/train/alu/urfictional/sidetex0.png"],
+["sidefrontr", "textures/train/alu/urfictional/sidetex0r.png"],
+["item", "textures/train/alu/381/item.png"],
+["logo", "textures/train/alu/381/acon.png"],
+["white", "textures/train/alu/white.png"],
+["LCDbaem", "textures/train/alu/urfictional/LCDa.png"],
+["Skirt", "textures/train/alu/Skirt.png"],
+["mat_front", "textures/train/alu/urfictional/31203.png"],
+["frame_1", "textures/train/alu/frame_1.png"],
+["gray_1", "textures/train/alu/gray_1.png"],
+["gray_2", "textures/train/alu/gray_2.png"],
+["gray_3", "textures/train/alu/gray_3.png"],
+["gray_4", "textures/train/alu/gray_4.png"],
+["gray_5", "textures/train/alu/gray_5.png"],
+["gray_6", "textures/train/alu/gray_6.png"],
+["Light", "textures/train/alu/Light2016.png", "Light"]]
+   },
+
+"door_left": [
+    {
+        "objects": ["door_LF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_LB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["door_RF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_RB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+"bogieModel2": {
+    "modelFile": "SAMHAN_DT50_nonC.mqo",
+    "textures": [["DT_501", "textures/train/SAMHAN_DT/DT50_SAMHAN.png"],
+    ["Foregrou", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["FrontCol", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["DT50_wide", "textures/train/SAMHAN_DT/DT138shin1.png"]],
+    "rendererPath": "scripts/Render_Script_SAMHAN_DT3.js"},
+"wheelRotationSpeed": 1.0177,
+				   
+"rollsignTexture": "textures/train/alu/rollsign_ur.png",
+  "rollsignNames": ["None", "Forwarding", "Testrun", "ceremony", "library", "chungsan", "cityhall", "beach", "donggwang", "Byeongjeom", "Cheonanex", "Sinchangex", "Yongsanex", "Incheon", "Bupyeong", "Cheonan", "Seoulex", "Dongincheonex", "Seodongtan", "Sinchang" , "GW_U" ],
+  "rollsigns": [
+    {
+      "uv": [0.021, 0.178, 0.0, 1.0],
+      "pos": [
+        [[-0.2248, 2.2864, 9.435], [-0.2248, 2.0364, 9.435], [-0.6164, 2.0364, 9.435], [-0.6164, 2.2864, 9.435]]],
+      "doAnimation": false,
+    	"disableLighting": false
+    },
+    {
+      "uv": [0.21, 0.45, 0.0, 1.0],
+      "pos": [
+        [[0.7747, 2.2864, 9.435], [0.7747, 2.0364, 9.435], [0.2255, 2.0364, 9.435], [0.2255, 2.2864, 9.435]]],
+      "doAnimation": false,
+    	"disableLighting": false
+    },
+{
+    "uv": [0.215, 0.445, 0.0, 1.0],
+    "pos": [
+    [[1.563, 2.32, -4.58], [1.563, 2.09, -4.58], [1.563, 2.09, -4.17], [1.563, 2.32, -4.17]],
+	[[-1.563, 2.32, 4.58], [-1.563, 2.09, 4.58], [-1.563, 2.09, 4.17], [-1.563, 2.32, 4.17]]
+	],
+    "doAnimation": false,
+    "disableLighting": false
+	},
+{
+    "uv": [0.98, 1.0, 0.0, 1.0],
+    "pos": [
+    [[-0.565, 2.58, 8.05], [-0.565, 2.58, -9.63], [-0.795, 2.58, -9.63], [-0.795, 2.58, 8.05]],
+	[[0.795, 2.58, 8.05], [0.795, 2.58, -9.63], [0.565, 2.58, -9.63], [0.565, 2.58, 8.05]]
+	],
+    "doAnimation": false,
+    "disableLighting": false
+	}
+  ],
+  
+"buttonTexture": "textures/train/alu/urfictional/button_korail312.png",
+
+"soundScriptPath": "scripts/urp_nak5suburban_toshibaIGBT.js",
+"sound_Horn": "sound_nopsb:train.rtm_klaxon0",
+"sound_DoorOpen": "sound_nopsb:train.rtm_dooropn",
+"sound_DoorClose": "sound_nopsb:train.rtm_doorclose_drrr",
+
+"sound_Announcement": [["101e", "sound_ur:train.rtm_ur_ch_101e"], ["101s", "sound_ur:train.rtm_ur_ch_101s"], ["102", "sound_ur:train.rtm_ur_ch_102"], 
+["103", "sound_ur:train.rtm_ur_ch_103"], ["104", "sound_ur:train.rtm_ur_ch_104"], ["105", "sound_ur:train.rtm_ur_ch_105"], ["106", "sound_ur:train.rtm_ur_ch_106"], 
+["107e", "sound_ur:train.rtm_ur_ch_107e"], ["107s", "sound_ur:train.rtm_ur_ch_107s"],
+["doorclswarn", "sound_nopsb:train.rtm_doorclswarn"], ["doorclswarn_new", "sound_nopsb:train.rtm_HC_dcls"], 
+["Startsoon", "sound_nopsb:train.rtm_HC_startsoon"], ["idsong", "sound_nopsb:train.rtm_idsong"], ["dep", "sound_nopsb:train.rtm_dep"], ["Eolssiguya", "sound_nopsb:train.rtm_Eolssiguya"] , ["laststn", "sound_nopsb:train.rtm_laststn"] ,["logosong", "sound_nopsb:train.rtm_logosong"]],
+ 
+
+"seatPos": [        		
+				[18, 1, -147, 2],   [18, 1, -140, 2],
+				[-18, 1, -147, 2],  [-18, 1, -140, 2],
+      			
+          		[18, 1, -97, 2],    [18, 1, -82, 2],    [18, 1, -75, 2],   [18, 1, -61, 2],
+          		[-18, 1, -97, 2],   [-18, 1, -82, 2],   [-18, 1, -75, 2],  [-18, 1, -61, 2],
+      			
+        		[18, 1, -18, 2],    [18, 1, -3, 2],     [18, 1, 3, 2],     [18, 1, 18, 2],
+        		[-18, 1, -18, 2],   [-18, 1, -3, 2],    [-18, 1, 3, 2],    [-18, 1, 18, 2],
+        		
+          		[18, 1, 97, 2],    [18, 1, 82, 2],    [18, 1, 75, 2],   [18, 1, 61, 2],
+          		[-18, 1, 97, 2],   [-18, 1, 82, 2],   [-18, 1, 75, 2],  [-18, 1, 61, 2]
+      		],
+
+"customIconTexture": "minecraft:textures/train/alu/icon_ur.png",
+"renderLight": true,
+"playerPos": [[0.124, 0.06, 8.915], [0.124, 0.06, 8.90]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"rolling": 0.0,
+"trainDistance": 10,
+"smoothing": true,
+"tags": "Korail 312000",
+ "doCulling": true,
+"accelerateion": 0.0020832
+}
