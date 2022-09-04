@@ -94,7 +94,7 @@
 
   "bogieModel2": {
     "modelFile": "SAMHAN_DT50_nonC.mqo",
-    "textures": [["DT_501", "textures/train/SAMHAN_DT/DT50_SAMHAN.png"],
+    "textures": [["DT_50_1_", "textures/train/SAMHAN_DT/DT50_SAMHAN.png"],
     ["Foregrou", "textures/train/SAMHAN_DT/grayN2.png"],
     ["FrontCol", "textures/train/SAMHAN_DT/grayN2.png"],
     ["DT50_wide", "textures/train/SAMHAN_DT/DT138shin1.png"]],
