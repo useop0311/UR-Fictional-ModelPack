@@ -8,4 +8,6 @@ Github에서 바로 다운로드 받지 마시고 릴리즈에 있는것을 받�
 
 해당 팩을 이용하시려면 M-TREC 사운드라이브러리와 [낙오광역열차팩](https://ntws.kr/modelpack/nopu/), [MhnElecSoundlib](https://ux.getuploader.com/Mhn_Elec/download/49)이 필요합니다.
 
-팩에 대한 문의는 우섭#0311 혹은 useop0311@rtmluna.kr로 문의해 주십시오.
+팩의 문제를 발견하였다면, 깃허브 issues 기능을 이용하여 제보해주십시오.
+
+기타 문의는 우섭#0311 혹은 useop0311@rtmluna.kr로 문의해 주십시오.
