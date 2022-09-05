@@ -7,9 +7,12 @@
 	"trainModel2": {
 		"modelFile": "ModelTrain_UR_322X00_M.mqo",
 		"textures": [
-			["mat1", "textures/train/322X00/322X00.png", "Light"],
-			["mat2", "textures/train/322X00/Sub_LCD_322X00.png", "Light"],
-			["DOOR", "textures/train/322X00/322X00Door.png", "Light,AlphaBlend"],
+			["mat1", "textures/train/322X00/322X00.png", "AlphaBlend"],
+			["mat2", "textures/train/322X00/Sub_LCD_322X00.png", ""],
+			["LIGHT", "textures/train/322X00/322X00.png", "Light"],
+			["LIGHT2", "textures/train/322X00/Sub_LCD_322X00.png", "Light"],
+			["LIGHT3", "textures/train/322X00/322X00Door.png", "Light"],
+			["DOOR", "textures/train/322X00/322X00Door.png", "AlphaBlend"],
 			["HABU", "textures/train/322X00/MITSUBISHI-MOSFET.png", ""]]
 		},
 	
@@ -20,7 +23,7 @@
 	
 	"buttonTexture": "textures/train/322X00/button_322X00_M.png",
 
-"soundScriptPath": "scripts/urp_UR322X00.js",
+"soundScriptPath": "scripts/UR322X00.js",
 "sound_BrakeRelease": "sound_mhnlib:RTMLib.Brake.Mhn_Brake_3N",
 "sound_BrakeRelease2": "sound_mhnlib:RTMLib.Brake.Mhn_Brake_3Y",
 "sound_Horn": "sound_mhnlib:RTMLib.Horn.Mhn_Horn_15",
