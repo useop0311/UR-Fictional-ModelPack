@@ -52,5 +52,53 @@
     "sounds": [
       "train/rtm_ur_ch_107s"
     ]
-  }
+  },
+"train.rtm_cs_3_sd": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cs_3_sd"
+    ]
+  },
+  "train.rtm_cs_3_su": {
+      "category": "neutral",
+      "sounds": [
+        "train/rtm_cs_3_su"
+      ]
+  },
+  "train.rtm_cs_301e": {
+     "category": "neutral",
+      "sounds": [
+      "train/rtm_cs_301e"
+     ]
+ },
+ "train.rtm_cs_302": {
+    "category": "neutral",
+     "sounds": [
+     "train/rtm_cs_302"
+    ]
+},
+"train.rtm_cs_303": {
+   "category": "neutral",
+    "sounds": [
+    "train/rtm_cs_303"
+   ]
+},
+"train.rtm_cs_304": {
+   "category": "neutral",
+    "sounds": [
+    "train/rtm_cs_304"
+   ]
+},
+"train.rtm_cs_305": {
+   "category": "neutral",
+    "sounds": [
+    "train/rtm_cs_305"
+   ]
+},
+"train.rtm_cs_306": {
+   "category": "neutral",
+    "sounds": [
+    "train/rtm_cs_306e"
+   ]
+}
 }
