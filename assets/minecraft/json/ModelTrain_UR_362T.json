@@ -1,0 +1,129 @@
+{
+"trainName": "UR_362T",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "ModelTrain_KRV2010_Msf.mqo",
+      
+"textures": [
+["sidetex1", "textures/train/alu/36X000/sidetex1.png"],
+["sidetex2", "textures/train/alu/36X000/sidetex2.png"],
+["window1", "textures/train/alu/window1s.png", "AlphaBlend"],
+["window2", "textures/train/alu/window2s1.png", "AlphaBlend"],
+["window3", "textures/train/alu/window3.png", "AlphaBlend"],
+["window4", "textures/train/alu/front2_a.png", "AlphaBlend"],
+["window5", "textures/train/alu/shadow.png", "AlphaBlend"],
+["white", "textures/train/alu/white.png"],
+["doorside", "textures/train/alu/36X000/doorside1.png"],
+["steel", "textures/train/alu/steel1.png"],
+["jibung", "textures/train/alu/311/jibung.png"],
+["cheonjang", "textures/train/alu/cheonjang.png"],
+["back", "textures/train/alu/311/back.png", "AlphaBlend"],
+["back1", "textures/train/alu/back_in.png", "AlphaBlend"],
+["badak", "textures/train/alu/311/badak.png"],
+["backin", "textures/train/alu/100_back.png"],
+["sub", "textures/train/alu/sub.png"],
+["door", "textures/train/alu/36X000/door.png"],
+["door_in", "textures/train/alu/door_in.png"],
+["habu", "textures/train/alu/tunder.png"],
+["black", "textures/train/alu/black.png"],
+["bambase", "textures/train/alu/311/korail5000Tc.png"],
+["LCDbaem", "textures/train/alu/njnfictional/LCDa.png"],
+["logo", "textures/train/alu/korlogono.png"],
+["Undera", "textures/train/alu/undera.png"],
+["chair", "textures/train/alu/chair.png"],
+["gray", "textures/train/alu/311/gray.png"],
+["toiletdoor", "textures/train/alu/311/toiletdoor.png"],
+["silver", "textures/train/alu/silver.png"],
+["darkgray", "textures/train/alu/darkgray.png"],
+["canmagi", "textures/train/Limited/canmagimr.png"],
+["canmagi1", "textures/train/Limited/canmagimr_1.png"],
+["subpan", "textures/train/alu/subno.png"],
+["item", "textures/train/alu/itemno.png"]
+]
+   },
+
+
+"door_left": [
+    {
+        "objects": ["door_LF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_LB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["door_RF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_RB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+"rollsignTexture": "textures/train/alu/rollsign_mrex.png",
+  "rollsignNames": ["None", "Forwarding", "Testrun", "Ltdexp", "Exp", "imsi", "group", "ltdcheongnyangni", "ltdgyeongan", "ltdnamhanlim", "ltdgoisan", "ltdwestseori", "ltdcentral", "ltdairport", "ltdhanlim", "ltdjungjeong", "ltddungog", "ltdkivotos", "ltddongdaegu", "ltdnewcastle" , "durumi" ],
+  "rollsigns": [
+{
+    "uv": [0.215, 0.445, 0.0, 1.0],
+    "pos": [
+    [[1.563, 2.32, -4.58], [1.563, 2.09, -4.58], [1.563, 2.09, -4.17], [1.563, 2.32, -4.17]],
+	[[-1.563, 2.32, 4.58], [-1.563, 2.09, 4.58], [-1.563, 2.09, 4.17], [-1.563, 2.32, 4.17]]
+	],
+    "doAnimation": false,
+    "disableLighting": false
+	},
+{
+    "uv": [0.98, 1.0, 0.0, 1.0],
+    "pos": [
+    [[-0.565, 2.58, 9.63], [-0.565, 2.58, -9.63], [-0.795, 2.58, -9.63], [-0.795, 2.58, 9.63]],
+	[[0.795, 2.58, 9.63], [0.795, 2.58, -9.63], [0.565, 2.58, -9.63], [0.565, 2.58, 9.63]]
+	],
+    "doAnimation": true,
+    "disableLighting": false
+	}
+  ],
+
+"bogieModel2": { "modelFile": "WDT59for1435.mqo",
+                   "textures": [["DT138", "textures/train/DT138.png"]]},
+
+"buttonTexture": "textures/train/alu/36X000/button_UR362T.png",
+
+"soundScriptPath": "scripts/urp_nak5suburban_toshibaIGBT.js",
+"sound_Horn": "sound_nopsb:train.rtm_klaxon0",
+"sound_DoorOpen": "sound_nopsb:train.rtm_dooropn",
+"sound_DoorClose": "sound_nopsb:train.rtm_doorclose_drrr",
+
+"sound_Announcement": [["doorclswarn", "sound_nopsb:train.rtm_doorclswarn"], ["doorclswarn_new", "sound_nopsb:train.rtm_HC_dcls"], ["Startsoon", "sound_nopsb:train.rtm_HC_startsoon"], ["idsong", "sound_nopsb:train.rtm_idsong"], ["dep", "sound_nopsb:train.rtm_dep"], ["Eolssiguya", "sound_nopsb:train.rtm_Eolssiguya"] , ["laststn", "sound_nopsb:train.rtm_laststn"] ,["logosong", "sound_nopsb:train.rtm_logosong"]],
+ 
+
+"slotPos": [[1.18, 0.012, -7.5, 2], [1.18, 0.012, -6.5, 2],[1.18, 0.012, -5.5, 2], [1.18, 0.012, -4.5, 2], [1.18, 0.012, -3.6, 2], [1.18, 0.012, -2.6, 2], [1.18, 0.012, -1.6, 2],          [1.18, 0.012, -0.6, 2], [1.18, 0.012, 0.3, 2], [1.18, 0.012, 1.3, 2], [1.15, 0.012, 2.3, 2], [1.18, 0.012, 3.3, 2],         [1.18, 0.012, 4.2, 2], [1.18, 0.012, 5.2, 2], [1.18, 0.012, 6.2, 2] , [1.18, 0.012, 7.1, 2]   ,     [-1.18, 0.012, -7.5, 2], [-1.18, 0.012, -6.5, 2],[-1.18, 0.012, -5.5, 2], [-1.18, 0.012, -4.5, 2], [-1.18, 0.012, -3.6, 2], [-1.18, 0.012, -2.6, 2], [-1.18, 0.012, -1.6, 2],          [-1.18, 0.012, -0.6, 2], [-1.18, 0.012, 0.3, 2], [-1.18, 0.012, 1.3, 2], [1.18, 0.012, 2.3, 2], [-1.18, 0.012, 3.3, 2],         [-1.18, 0.012, 4.2, 2], [-1.18, 0.012, 5.2, 2], [-1.18, 0.012, 6.2, 2] ,[-1.18, 0.012 ,7.1, 2]    ],
+
+"customIconTexture": "minecraft:textures/train/alu/icon_ur.png",
+"renderLight": true,
+"playerPos": [[0.0, 0.2, 9.2], [0.0, 0.2, -9.2]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"rolling": 0.0,
+"trainDistance": 10,
+ "doCulling": true,
+"smoothing": true,
+"maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
+"accelerateion": 0.0020832
+}

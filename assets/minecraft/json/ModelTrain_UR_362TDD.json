@@ -1,0 +1,119 @@
+{
+"trainName": "UR_362000_TDD",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "ModelTrain_KRV2010_Tsdd.mqo",
+      
+"textures": [
+["sidetex1", "textures/train/alu/36X000/sidetex1.png"],
+["sidetex2", "textures/train/alu/36X000/sidetex2.png"],
+["window1", "textures/train/alu/window1s.png", "AlphaBlend"],
+["window2", "textures/train/alu/window2s1.png", "AlphaBlend"],
+["window3", "textures/train/alu/window3.png", "AlphaBlend"],
+["window4", "textures/train/alu/front2_a.png", "AlphaBlend"],
+["window5", "textures/train/alu/shadow.png", "AlphaBlend"],
+["white", "textures/train/alu/white.png"],
+["doorside", "textures/train/alu/36X000/doorside1.png"],
+["steel", "textures/train/alu/steel1.png"],
+["jibung", "textures/train/alu/311/jibung.png"],
+["back", "textures/train/alu/311/back.png", "AlphaBlend"],
+["back1", "textures/train/alu/back_in.png", "AlphaBlend"],
+["backin", "textures/train/alu/100_back.png"],
+["sub", "textures/train/alu/sub.png"],
+["door", "textures/train/alu/36X000/door.png"],
+["door_in", "textures/train/alu/door_in.png"],
+["black", "textures/train/alu/black.png"],
+["bambase", "textures/train/alu/311/korail5000Tc.png"],
+["LCDbaem", "textures/train/alu/njnfictional/LCDa.png"],
+["logo", "textures/train/alu/korlogono.png"],
+["item", "textures/train/alu/item.png"],
+["badak", "textures/train/alu/311/badak.png"],
+["chair", "textures/train/alu/chair.png"],
+["ddgray", "textures/train/alu/311/ddgray.png"],
+["cheonjang", "textures/train/alu/cheonjangdd.png"],
+["ddlightgray", "textures/train/alu/311/lightgray.png"],
+["dddarkgray", "textures/train/alu/311/dddarkgray.png"],
+["transparent", "textures/train/alu/311/transparent.png"],
+["ddjibung", "textures/train/alu/311/ddjibung.png"],
+["linemap", "textures/train/alu/311/linemap.png"],
+["dddoorside", "textures/train/alu/311/doorside.png"],
+["paechal", "textures/train/alu/311/paechal.png"],
+["lineinfo", "textures/train/alu/36X000/lineinfo.png"],
+["oscarchair", "textures/train/alu/311/oscarchair.png"],
+["gray", "textures/train/alu/311/gray.png"],
+["toiletdoor", "textures/train/alu/311/toiletdoor.png"]
+]
+   },
+
+
+"door_left": [
+    {
+        "objects": ["door_LF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_LB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["door_RF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_RB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+
+"bogieModel2": { "modelFile": "WDT59for1435.mqo",
+                   "textures": [["DT138", "textures/train/DT138.png"]]},
+
+"buttonTexture": "textures/train/alu/36X000/button_UR362TDD.png",
+
+"soundScriptPath": "scripts/urp_nak5suburban_toshibaIGBT.js",
+"sound_Horn": "sound_nopsb:train.rtm_klaxon0",
+"sound_DoorOpen": "sound_nopsb:train.rtm_dooropn",
+"sound_DoorClose": "sound_nopsb:train.rtm_doorclose_drrr",
+
+"sound_Announcement": [["doorclswarn", "sound_nopsb:train.rtm_doorclswarn"], ["doorclswarn_new", "sound_nopsb:train.rtm_HC_dcls"], ["Startsoon", "sound_nopsb:train.rtm_HC_startsoon"], ["idsong", "sound_nopsb:train.rtm_idsong"], ["dep", "sound_nopsb:train.rtm_dep"], ["Eolssiguya", "sound_nopsb:train.rtm_Eolssiguya"] , ["laststn", "sound_nopsb:train.rtm_laststn"] ,["logosong", "sound_nopsb:train.rtm_logosong"]],
+ 
+
+"seatPos": [
+
+			[14, -12, 50, 2], [14, -12, 30, 2], [14, -12, 10, 2], [14, -12, -50, 2], [14, -12, -30, 2], [14, -12, -10, 2],
+			[-14, -12, 50, 2], [-14, -12, 30, 2], [-14, -12, 10, 2], [-14, -12, -50, 2], [-14, -12, -30, 2], [-14, -12, -10, 2],
+
+			[14, 14, 50, 2], [14, 14, 30, 2], [14, 14, 10, 2], [14, 14, -10, 2], [14, 14, -30, 2], [14, 14, -50, 2],
+			[-14, 14, 50, 2], [-14, 14, 30, 2], [-14, 14, 10, 2], [-14, 14, -10, 2], [-14, 14, -30, 2], [-14, 14, -50, 2]
+
+			],
+
+"customIconTexture": "minecraft:textures/train/alu/icon_ur.png",
+"renderLight": true,
+"playerPos": [[0.0, 0.2, 9.2], [0.0, 0.2, -9.2]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"rolling": 0.0,
+"trainDistance": 10,
+ "doCulling": true,
+"smoothing": true,
+"maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
+"accelerateion": 0.0020832
+}
