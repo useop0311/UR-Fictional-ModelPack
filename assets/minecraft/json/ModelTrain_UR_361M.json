@@ -4,7 +4,7 @@
 "trainType": "EC",
 
 "trainModel2": {
-      "modelFile": "ModelTrain_KRV2010_Ms.mqo",
+      "modelFile": "ModelTrain_KRV2016_Ms29.mqo",
       
 "textures": [
 ["sidetex1", "textures/train/alu/36X000/sidetex1.png"],
@@ -66,14 +66,14 @@
     }
 ],
 
-"rollsignTexture": "textures/train/alu/rollsign_mr.png",
-  "rollsignNames": ["None", "Forwarding", "Testrun", "expcheongnyang", "expgyeongan", "expnamhanlim", "expgoisan", "expimun", "expairport", "expkovotos", "expunseo", "cheongnyang", "gyeongan", "namhanlim", "goisan", "imun", "airport", "kovotos", "unseo", "no" , "durumi" ],
+"rollsignTexture": "textures/train/alu/rollsign36_ur.png",
+"rollsignNames": ["None", "Forwarding", "Testrun", "Metro", "L.Express", "M_Namhwaseo", "LE_Namhwaseo", "M_Chungjoong", "LE_Chungjoong", "M_Sagok", "M_Donggwang", "M_Sogak", "LE_Sogak", "M_Haegwang", "LE_Haegwang", "None", "None", "None", "None", "None" , "None"],
   "rollsigns": [
 {
     "uv": [0.215, 0.445, 0.0, 1.0],
     "pos": [
-    [[1.563, 2.32, -4.58], [1.563, 2.09, -4.58], [1.563, 2.09, -4.17], [1.563, 2.32, -4.17]],
-	[[-1.563, 2.32, 4.58], [-1.563, 2.09, 4.58], [-1.563, 2.09, 4.17], [-1.563, 2.32, 4.17]]
+    [[1.443, 2.32, -4.58], [1.443, 2.09, -4.58], [1.443, 2.09, -4.17], [1.443, 2.32, -4.17]],
+	[[-1.443, 2.32, 4.58], [-1.443, 2.09, 4.58], [-1.443, 2.09, 4.17], [-1.443, 2.32, 4.17]]
 	],
     "doAnimation": false,
     "disableLighting": false
@@ -92,10 +92,16 @@
 "interiorLights": [
 	{"pos": [0.0, 2.4, 4.0]},
 	{"pos": [0.0, 2.4, -4.0]}],
-"bogieModel2": { "modelFile": "WDT59for1435.mqo",
-                   "textures": [["DT138", "textures/train/DT138.png"]]},
+"bogieModel2": {
+	"modelFile": "SAMHAN_DT50_nonC.mqo",
+	"textures": [["DT_50_1_", "textures/train/SAMHAN_DT/DT50_SAMHAN.png"],
+["Foregrou", "textures/train/SAMHAN_DT/grayN2.png"],
+["FrontCol", "textures/train/SAMHAN_DT/grayN2.png"],
+["DT50_wide", "textures/train/SAMHAN_DT/DT138shin1.png"]],
+"rendererPath": "scripts/Render_Script_SAMHAN_DT2.js"},
+"wheelRotationSpeed": 1.0177,
 
-"buttonTexture": "textures/train/alu/36X000/button_UR312M.png",
+"buttonTexture": "textures/train/alu/36X000/button_UR361M.png",
 
 "soundScriptPath": "scripts/urp_nak5suburban_toshibaIGBT.js",
 "sound_Horn": "sound_nopsb:train.rtm_klaxon0",
@@ -120,6 +126,7 @@
 "trainDistance": 10,
  "doCulling": true,
 "smoothing": true,
+"tags": "UR 361000 fic",
 "maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
 "accelerateion": 0.0020832
 }

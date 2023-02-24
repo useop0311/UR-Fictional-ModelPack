@@ -67,7 +67,7 @@
     }
 ],
 
-"rollsignTexture": "textures/train/alu/rollsign_ur.png",
+"rollsignTexture": "textures/train/alu/rollsign31_ur.png",
   "rollsignNames": ["None", "Forwarding", "Testrun", "ceremony", "library", "chungsan", "cityhall", "beach", "donggwang", "Byeongjeom", "Cheonanex", "Sinchangex", "Yongsanex", "Incheon", "Bupyeong", "Cheonan", "Seoulex", "Dongincheonex", "Seodongtan", "Sinchang" , "GW_U" ],
   "rollsigns": [
 {

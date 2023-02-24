@@ -1,5 +1,5 @@
 {
-"trainName": "UR_362000_TDD",
+"trainName": "UR_362TDD",
 
 "trainType": "EC",
 
@@ -81,10 +81,14 @@
 "interiorLights": [
 	{"pos": [0.0, 2.4, 4.0]},
 	{"pos": [0.0, 2.4, -4.0]}],
-
-
-"bogieModel2": { "modelFile": "WDT59for1435.mqo",
-                   "textures": [["DT138", "textures/train/DT138.png"]]},
+"bogieModel2": {
+  "modelFile": "SAMHAN_DT50_nonC.mqo",
+  "textures": [["DT_50_1_", "textures/train/SAMHAN_DT/DT50_SAMHAN.png"],
+    ["Foregrou", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["FrontCol", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["DT50_wide", "textures/train/SAMHAN_DT/DT138shin1.png"]],
+  "rendererPath": "scripts/Render_Script_SAMHAN_DT3.js"},
+"wheelRotationSpeed": 1.0177,
 
 "buttonTexture": "textures/train/alu/36X000/button_UR362TDD.png",
 
@@ -114,6 +118,7 @@
 "trainDistance": 10,
  "doCulling": true,
 "smoothing": true,
+"tags": "UR 362000 fic",
 "maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
 "accelerateion": 0.0020832
 }

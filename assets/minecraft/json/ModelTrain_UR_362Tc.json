@@ -94,12 +94,17 @@
 "interiorLights": [
 	{"pos": [0.0, 2.4, 4.0]},
 	{"pos": [0.0, 2.4, -4.0]}],
-
-"bogieModel2": { "modelFile": "WDT59for1435.mqo",
-                   "textures": [["DT138", "textures/train/DT138.png"]]},
+"bogieModel2": {
+  "modelFile": "SAMHAN_DT50_nonC.mqo",
+  "textures": [["DT_50_1_", "textures/train/SAMHAN_DT/DT50_SAMHAN.png"],
+    ["Foregrou", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["FrontCol", "textures/train/SAMHAN_DT/grayN2.png"],
+    ["DT50_wide", "textures/train/SAMHAN_DT/DT138shin1.png"]],
+  "rendererPath": "scripts/Render_Script_SAMHAN_DT3.js"},
+"wheelRotationSpeed": 1.0177,
 				   
-"rollsignTexture": "textures/train/alu/rollsign_mrex.png",
-  "rollsignNames": ["None", "Forwarding", "Testrun", "Ltdexp", "Exp", "imsi", "group", "ltdcheongnyangni", "ltdgyeongan", "ltdnamhanlim", "ltdgoisan", "ltdwestseori", "ltdcentral", "ltdairport", "ltdhanlim", "ltdjungjeong", "ltddungog", "ltdkivotos", "ltddongdaegu", "ltdnewcastle" , "durumi" ],
+"rollsignTexture": "textures/train/alu/rollsign36_ur.png",
+"rollsignNames": ["None", "Forwarding", "Testrun", "Metro", "L.Express", "M_Namhwaseo", "LE_Namhwaseo", "M_Chungjoong", "LE_Chungjoong", "M_Sagok", "M_Donggwang", "M_Sogak", "LE_Sogak", "M_Haegwang", "LE_Haegwang", "None", "None", "None", "None", "None" , "None"],
   "rollsigns": [
     {
       "uv": [0.021, 0.178, 0.0, 1.0],
@@ -135,7 +140,7 @@
 	}
   ],
   
-"buttonTexture": "textures/train/alu/36X000/button_korail5000T.png",
+"buttonTexture": "textures/train/alu/36X000/button_UR362Tc.png",
 
 "soundScriptPath": "scripts/urp_nak5suburban_toshibaIGBT.js",
 "sound_Horn": "sound_nopsb:train.rtm_klaxon0",
@@ -154,7 +159,7 @@
 "rolling": 0.0,
 "trainDistance": 10,
 "smoothing": true,
-"tags": "Korail 312000",
+"tags": "UR 362000 fic",
  "doCulling": true,
 "maxSpeed": [0.40, 0.84, 1.08, 1.88, 2.23],
 "accelerateion": 0.0020832

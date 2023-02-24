@@ -1,5 +1,5 @@
 {
-"trainName": "UR_362M'",
+"trainName": "UR_362M",
 
 "trainType": "EC",
 
@@ -39,8 +39,8 @@
 ["darkgray", "textures/train/alu/darkgray.png"],
 ["canmagi", "textures/train/Limited/canmagimr.png"],
 ["canmagi1", "textures/train/Limited/canmagimr_1.png"],
-["subpan", "textures/train/alu/sub.png"],
-["item", "textures/train/alu/381/item.png"]
+["subpan", "textures/train/alu/subno.png"],
+["item", "textures/train/alu/itemno.png"]
 ]
    },
 
@@ -109,8 +109,7 @@
     ["DT50_wide", "textures/train/SAMHAN_DT/DT138shin1.png"]],
   "rendererPath": "scripts/Render_Script_SAMHAN_DT3.js"},
 "wheelRotationSpeed": 1.0177,
-
-"buttonTexture": "textures/train/alu/36X000/button_UR362M'.png",
+"buttonTexture": "textures/train/alu/36X000/button_UR362M.png",
 
 "soundScriptPath": "scripts/urp_nak5suburban_toshibaIGBT.js",
 "sound_Horn": "sound_nopsb:train.rtm_klaxon0",
@@ -119,17 +118,18 @@
 
 "sound_Announcement": [["doorclswarn", "sound_nopsb:train.rtm_doorclswarn"], ["doorclswarn_new", "sound_nopsb:train.rtm_HC_dcls"], ["Startsoon", "sound_nopsb:train.rtm_HC_startsoon"], ["idsong", "sound_nopsb:train.rtm_idsong"], ["dep", "sound_nopsb:train.rtm_dep"], ["Eolssiguya", "sound_nopsb:train.rtm_Eolssiguya"] , ["laststn", "sound_nopsb:train.rtm_laststn"] ,["logosong", "sound_nopsb:train.rtm_logosong"]],
  
-"customIconTexture": "minecraft:textures/train/alu/icon_ur.png",
+
 "slotPos": [[1.18, 0.012, -7.5, 2], [1.18, 0.012, -6.5, 2],[1.18, 0.012, -5.5, 2], [1.18, 0.012, -4.5, 2], [1.18, 0.012, -3.6, 2], [1.18, 0.012, -2.6, 2], [1.18, 0.012, -1.6, 2],          [1.18, 0.012, -0.6, 2], [1.18, 0.012, 0.3, 2], [1.18, 0.012, 1.3, 2], [1.15, 0.012, 2.3, 2], [1.18, 0.012, 3.3, 2],         [1.18, 0.012, 4.2, 2], [1.18, 0.012, 5.2, 2], [1.18, 0.012, 6.2, 2] , [1.18, 0.012, 7.1, 2]   ,     [-1.18, 0.012, -7.5, 2], [-1.18, 0.012, -6.5, 2],[-1.18, 0.012, -5.5, 2], [-1.18, 0.012, -4.5, 2], [-1.18, 0.012, -3.6, 2], [-1.18, 0.012, -2.6, 2], [-1.18, 0.012, -1.6, 2],          [-1.18, 0.012, -0.6, 2], [-1.18, 0.012, 0.3, 2], [-1.18, 0.012, 1.3, 2], [1.18, 0.012, 2.3, 2], [-1.18, 0.012, 3.3, 2],         [-1.18, 0.012, 4.2, 2], [-1.18, 0.012, 5.2, 2], [-1.18, 0.012, 6.2, 2] ,[-1.18, 0.012 ,7.1, 2]    ],
 
+"customIconTexture": "minecraft:textures/train/alu/icon_ur.png",
 "renderLight": true,
 "playerPos": [[0.0, 0.2, 9.2], [0.0, 0.2, -9.2]],
 "bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
 "rolling": 0.0,
 "trainDistance": 10,
  "doCulling": true,
+ "tags": "UR 362000 fic",
 "smoothing": true,
-"tags": "UR 362000 fic",
 "maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
 "accelerateion": 0.0020832
 }
